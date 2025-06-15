@@ -33,9 +33,9 @@ function App() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="-left-11 absolute sm:-left-12 top-1/2 z-10 -translate-y-1/2 !bg-white !rounded-[50%] size-[40px] p-2 shadow" />
+          <CarouselPrevious className="hidden sm:flex absolute sm:-left-12 top-1/2 z-10 -translate-y-1/2 !bg-white !rounded-[50%] size-[40px] p-2 shadow" />
 
-          <CarouselNext className="-right-11 absolute sm:-right-12 top-1/2 z-10 -translate-y-1/2 !bg-white !rounded-[50%] size-[40px] p-2 shadow" />
+          <CarouselNext className="hidden sm:flex absolute sm:-right-12 top-1/2 z-10 -translate-y-1/2 !bg-white !rounded-[50%] size-[40px] p-2 shadow" />
           <CarouselDots />
         </Carousel>
       </div>
